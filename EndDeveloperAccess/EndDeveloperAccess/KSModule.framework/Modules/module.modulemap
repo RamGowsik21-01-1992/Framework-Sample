@@ -1,0 +1,11 @@
+framework module KSModule {
+  umbrella header "KSModule.h"
+
+  export *
+  module * { export * }
+}
+
+module KSModule.Swift {
+    header "KSModule-Swift.h"
+    requires objc
+}

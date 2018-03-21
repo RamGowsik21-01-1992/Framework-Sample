@@ -1,0 +1,11 @@
+framework module KSCore {
+  umbrella header "KSCore.h"
+
+  export *
+  module * { export * }
+}
+
+module KSCore.Swift {
+    header "KSCore-Swift.h"
+    requires objc
+}
